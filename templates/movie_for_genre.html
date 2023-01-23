@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{%for movie in data%}
+    <p> Название фильма: {{movie['title']}}</p>
+    <p> Описание: {{movie['description']}}</p>
+    <br>
+{%endfor%}
+</body>
+</html>
